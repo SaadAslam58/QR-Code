@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container">
-<p>Enter your Text or URL</p>
-    <input type="text" id="qrText" placeholder="Text or URL">
+<p>Enter your Text or URL </p>
+    <input type="text" id="qrText" placeholder="Text or URL" >
 
    <div id="img-box">
     <img src="" id="qrImg">
    </div>
 
-    <button class="Generate" onclick="generateQRCode()" id="btnQR" >Generate QR Code</button>
-    <button id="btnReset" onclick="resetQRCode()">Reset</button>
+    <button class="Generate" onclick="generateQRCode()" id="btnQR" >Generate QR Code <i class="fa-solid fa-qrcode"></i></button>
+    <button id="btnReset" onclick="resetQRCode()">Reset <i class="fa-solid fa-trash-can-arrow-up"></i></button>
     </div>
     <script src="index.js"></script>
 </body>
